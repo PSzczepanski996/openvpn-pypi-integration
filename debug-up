@@ -1,0 +1,4 @@
+#!/bin/sh
+# filename: debug-up
+
+printenv >> /var/log/debug_up-vpn-pypi.log

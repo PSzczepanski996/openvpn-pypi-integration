@@ -1,0 +1,4 @@
+#!/bin/sh
+# filename: debug-down
+
+printenv >> /var/log/debug_down-vpn-pypi.log

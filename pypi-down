@@ -1,0 +1,6 @@
+#!/bin/sh
+# filename: pypi-down
+
+if [ "$CONNECTION_ID" = gate-UDP4-1194-patryk.szczepanski-config ]; then
+  mv ~/.pip/pip.backup ~/.pip/pip.conf
+fi
