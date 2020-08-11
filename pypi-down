@@ -1,6 +1,6 @@
 #!/bin/sh
 # filename: pypi-down
 
-if [ "$CONNECTION_ID" = ___VPN___ID___ ]; then
-  mv ~/.pip/pip.conf  ~/.pip/pip.backup
+if [ "$CONNECTION_ID" = "___VPN___ID___" ]; then
+  mv /home/___USER___/.pip/pip.conf  /home/___USER___/.pip/pip.backup
 fi
