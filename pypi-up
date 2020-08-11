@@ -2,5 +2,5 @@
 # filename: pypi-up
 
 if [ "$CONNECTION_ID" = ___VPN___ID___ ]; then
-  mv ~/.pip/pip.conf ~/.pip/pip.backup
+  mv ~/.pip/pip.backup ~/.pip/pip.conf
 fi

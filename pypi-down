@@ -1,6 +1,6 @@
 #!/bin/sh
 # filename: pypi-down
 
-if [ "$CONNECTION_ID" = gate-UDP4-1194-patryk.szczepanski-config ]; then
-  mv ~/.pip/pip.backup ~/.pip/pip.conf
+if [ "$CONNECTION_ID" = ___VPN___ID___ ]; then
+  mv ~/.pip/pip.conf  ~/.pip/pip.backup
 fi
